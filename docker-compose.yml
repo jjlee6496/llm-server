@@ -1,0 +1,10 @@
+services:
+  container-name:
+    image: local-llm
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+    environment:
+      - MODEL_PATH=/app/models/EXAONE-3.5-2.4B-Instruct-Q2_K.gguf

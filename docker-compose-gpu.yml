@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  local-llm:
+    image: ghcr.io/ggerganov/llama.cpp:server-cuda
+    command: --model /models/EXAONE-3.5-2.4B-Instruct-Q2_K.gguf --host 0.0.0.0 --port 8080 -n 512 -ngl -1
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./models:/models
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

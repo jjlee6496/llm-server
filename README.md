@@ -3,7 +3,7 @@
 
 # 사용방법
 ## 1. 모델 준비
-- 모델 준비 후 models 폴더에 가중치파일 넣기기. [EXAONE-3.5-2.4B-Instruct-GGUF(비상업용)](https://huggingface.co/bartowski/EXAONE-3.5-2.4B-Instruct-GGUF)
+- 모델 준비 후 models 폴더에 가중치파일 넣기. [EXAONE-3.5-2.4B-Instruct-GGUF(비상업용)](https://huggingface.co/bartowski/EXAONE-3.5-2.4B-Instruct-GGUF)
     - 예시로 EXAONE-3.5-2.4B-Instruct-Q2_K.gguf 사용함
     - [LG EXAONE](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct)
     - [GGUF 파일이란?](https://huggingface.co/docs/hub/gguf)

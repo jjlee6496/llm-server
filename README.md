@@ -6,7 +6,7 @@
 - 모델 준비 후 models 폴더에 가중치파일 넣기기. [EXAONE-3.5-2.4B-Instruct-GGUF(비상업용)](https://huggingface.co/bartowski/EXAONE-3.5-2.4B-Instruct-GGUF)
     - 예시로 EXAONE-3.5-2.4B-Instruct-Q2_K.gguf 사용함
     - [LG EXAONE](https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct)
-    - GGUF 파일이란?
+    - [GGUF 파일이란?](https://huggingface.co/docs/hub/gguf)
 - [llama3 한국어 양자화](https://huggingface.co/zoomer75/llama-3.2-Korean-Bllossom-3B-Q4_K_M-GGUF)
 - [phi-4(마이크로소프트 최신 모델)](https://huggingface.co/microsoft/phi-4)
 - [허깅페이스 검색]()

@@ -81,4 +81,5 @@ docker compose -f docker-compose-gpu.yml up
 ```
 
 # Reference
-[llama.cpp 깃허브](https://github.com/ggerganov/llama.cpp/tree/master)
+- [llma.cpp server 상세 내용](https://github.com/ggerganov/llama.cpp/blob/master/examples/server/README.md)
+- [llama.cpp 깃허브](https://github.com/ggerganov/llama.cpp/tree/master)

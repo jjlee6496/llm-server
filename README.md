@@ -9,7 +9,7 @@
     - [GGUF 파일이란?](https://huggingface.co/docs/hub/gguf)
 - [llama3 한국어 양자화](https://huggingface.co/zoomer75/llama-3.2-Korean-Bllossom-3B-Q4_K_M-GGUF)
 - [phi-4(마이크로소프트 최신 모델)](https://huggingface.co/microsoft/phi-4)
-- [허깅페이스 검색]()
+- [허깅페이스 검색](https://huggingface.co/)
 - 모델 선택은 리소스에 따라, [벤치마크 성능](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?params=0%2C3)에 따라 선택
 - docker-compose.yml 수정
 
